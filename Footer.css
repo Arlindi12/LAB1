@@ -1,0 +1,99 @@
+/* Footer Section */
+.footer-section {
+  background-color: #2d2d2d;  /* Darker background for better contrast */
+  color: #ccc;                /* Lighter text for better readability */
+  padding: 3rem 1rem;          /* Added padding for spacing */
+}
+
+/* Footer Heading */
+.footer-heading {
+  font-size: 1.75rem;          /* Slightly larger font size */
+  font-weight: 600;            /* Bolder text for headings */
+  margin-bottom: 1.5rem;       /* More space below the heading */
+  color: #f1f1f1;              /* Light color for headings */
+}
+
+/* Contact Info List */
+.contact-info li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;         /* More space between items */
+}
+
+.contact-info .icon {
+  margin-right: 0.8rem;        /* Increased margin for better spacing */
+  font-size: 1.2rem;           /* Slightly larger icon size */
+  color: #f1f1f1;              /* Light color for icons */
+}
+
+/* Footer Links List */
+.footer-links li {
+  margin-bottom: 0.8rem;       /* Spacing between footer links */
+}
+
+.footer-links a {
+  color: #ccc;                 /* Lighter color for links */
+  text-decoration: none;       /* Remove underline */
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.footer-links a:hover {
+  color: #ff6347;              /* Change color on hover */
+}
+
+/* Subscribe Form */
+.subscribe-form .form-group {
+  display: flex;
+  align-items: center;
+  margin-top: 1.5rem;           /* Added top margin for spacing */
+}
+
+.subscribe-form input[type="email"] {
+  flex: 1;
+  padding: 0.8rem;              /* Added padding for better input area */
+  border-radius: 5px;           /* Slightly rounded corners */
+  border: 1px solid #555;      /* Subtle border */
+  background-color: #444;      /* Darker background for the input */
+  color: #fff;                 /* White text for input */
+}
+
+.subscribe-form button {
+  background-color: #ff6347;   /* Button color to match theme */
+  color: #fff;                 /* White text on button */
+  padding: 0.8rem 1.5rem;      /* Adequate padding for the button */
+  border: none;
+  border-radius: 5px;          /* Rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.subscribe-form button:hover {
+  background-color: #e55347;   /* Darker button color on hover */
+}
+
+/* Border Top */
+.footer-section .border-top {
+  border-top: 1px solid #555;
+  padding-top: 2rem;            /* More space after the border */
+  margin-top: 2rem;             /* Add margin above the border */
+}
+
+/* Small Screens: Adjustments for better readability */
+@media (max-width: 768px) {
+  .footer-section {
+      padding: 2rem 1rem;      /* Reduced padding on smaller screens */
+  }
+
+  .footer-heading {
+      font-size: 1.5rem;       /* Smaller font size for headings */
+  }
+
+  .contact-info li {
+      flex-direction: column;  /* Stack the contact info items vertically */
+      align-items: flex-start; /* Align items to the left */
+  }
+
+  .footer-links li {
+      margin-bottom: 1rem;     /* More space between links */
+  }
+}
